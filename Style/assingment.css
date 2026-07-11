@@ -98,3 +98,46 @@ body{
     cursor: pointer;
 }
 /* Hero End */
+
+/* Speaker Card start */
+.title{
+    text-align: center;
+    margin: 50px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.speakers-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 50px px;
+        height: 900px;
+}
+.card{
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgb(0, 0, 0, 0.1);
+}
+.card img{
+    width: 100%;
+    display: block;
+}
+.card h6{
+    color: #2563EB;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.card h3{
+    color: #0D1B2A;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.card p{
+    color: #575757;
+    margin-top: 10px;
+    margin-left: 15px;
+}
