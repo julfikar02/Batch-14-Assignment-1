@@ -54,3 +54,47 @@ body{
     cursor: pointer;
 }
 /* Nav End */
+
+/* Hero Start */
+.hero-section{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/banner.jpg);
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.hero-content{
+    text-align: center;
+    margin-top: 110px;
+}
+.hero-content h2{
+    color: beige;
+    align-items: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+.hero-content p{
+    color: white;
+    align-items: center;
+    font-size: 17px;
+}
+.hero-register-btn{
+    background-color: #1D4ED8;
+    width: 20rem;
+    height: 60px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 30rem;
+}
+.hero-register-btn a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Hero End */
