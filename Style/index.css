@@ -73,13 +73,13 @@ body{
 .hero-content h2{
     color: beige;
     align-items: center;
-    font-size: 100px;
+    font-size: 65px;
     font-weight: bold;
 }
 .hero-content p{
     color: white;
     align-items: center;
-    font-size: 30px;
+    font-size: 18px;
 }
 .hero{
     position: relative;
@@ -91,9 +91,9 @@ body{
     bottom: 80px;
     left: 50%;
     transform: translateX(-50%);
-    width: 20rem;
+    width: 15rem;
     max-width: 90%;
-    height: 70px;
+    height: 60px;
     background: #1D4ED8;
     border: none;
     border-radius: 8px;
@@ -120,10 +120,10 @@ body{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    max-width: 1500px;
+    max-width: 1280px;
     margin: 0 auto;
-    padding: 50px px;
-    height: 1000px;
+    padding: 40px;
+    height: 950px;
 
 }
 .card{
@@ -165,7 +165,7 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
-    max-width: 1280px;
+    max-width: 1200px;
     margin: 0 auto 80px;
 
 }
