@@ -184,7 +184,6 @@ body{
     color: #fff ;
     transform: scale(1.05);
     box-shadow: 0 20px 40px rgba(124, 124, 124, 0.35);
-    border: none;
 }
 .featured h2,
 .featured h6,
@@ -192,7 +191,9 @@ body{
 .featured li{
     color: #fff !important;
 }
-
+.secure-card h5{
+    color: #60a5fa;
+}
 .secure-card h6:first-child{
     color: #888888;
     font-size: 12px;
@@ -206,13 +207,16 @@ body{
 }
 .secure-card h6:nth-child(3){
     font-size: 16px;
-    color: #888888;
     margin-bottom: 25px;
 }
+
 .secure-card hr{
     border: none;
     border-top: 1px solid #E2E8F0;
     margin: 25px 0;
+}
+.secure-card hr.pro-line{
+    border-top: 1px solid #4771a8;
 }
 .secure-card ul{
     margin-bottom: 30px;
@@ -222,6 +226,10 @@ body{
     color: #333333;
     position: relative;
     padding-left: 3px;
+
+}
+.secure-card ul li::marker{
+    color: #60a5fa;
 }
 .secure-card ul li::before{
     margin-bottom: 15px;
@@ -245,11 +253,16 @@ body{
     color: #2563EB;
     text-decoration: none;
 }
-.secure-card button:hover{
-    background: #2563EB;
+.secure-card .get-standard{
+    color: #1D4ED8;
 }
-.secure-card button:hover{
-        color: #fff;
+.secure-card .get-pro{
+    color: #fff;
+    background-color: #1D4ED8;
+}
+.secure-card .contact{
+    color: #131313;
+    border: 1px solid #0D1B2A;
 }
 
 /* Secure Spot End */
@@ -335,7 +348,6 @@ body{
 /* Footer Styles */
 .devconf-footer {
     background-color: #0d1b2a;
-    color: #fff;
     padding: 40px 20px 20px 20px;
 }
 
@@ -368,7 +380,7 @@ body{
 
 /* Hover Effect */
 .footer-right a:hover {
-    color: #3b82f6; /* হালকা নীল রঙ */
+    color: #3b82f6;
 }
 
 /* Horizontal Line */
